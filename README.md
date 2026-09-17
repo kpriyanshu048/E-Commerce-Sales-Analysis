@@ -42,6 +42,12 @@ The dataset contains information related to:
 ### Dataset Source
 
 Kaggle — E-Commerce Sales Dataset by The Devastator.
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("thedevastator/unlock-profits-with-e-commerce-sales-data")
+
+print("Path to dataset files:", path)
 
 ---
 
